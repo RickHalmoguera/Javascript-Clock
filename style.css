@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100VH;
+    background: #114357; 
+    background: -webkit-linear-gradient(to bottom, #F29492, #114357);  
+    background: linear-gradient(to bottom, #F29492, #114357); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+}
+
+.clock-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+/*---------------------------ANALOG CLOCK STYLES----------------------------*/
+
+.clock{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    border-radius: 50%;
+    z-index: 9999;
+}
+.hand{
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
+
+}
+
+.hours-hand{
+    width: 48%;
+    left: 2%;
+}
+
+.minutes-hand{
+    width: 30%;   
+    left: 20%;
+}
+
+.seconds-hand{
+    width: 45%;
+    left: 5%;
+    
+}
+/*----------------------------------DIGITAL CLOCK STYLES-----------------------*/
+
+.digital-clock-container{
+    display: flex;
+    gap: 10px;
+    filter:drop-shadow(0px 0px 6px  #000000);
+}
+
+
+/*----------------------------------BUTTON STYLES------------------------------*/
+
+.button{
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    padding: .5em;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
+    transition: all .2s;
+}
+
+.button:hover{
+    -webkit-box-shadow: 0px 0px 15px 0px #FFFFFF; 
+    box-shadow: 0px 0px 15px 0px #FFFFFF;
+}
+
+.button:active{
+    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
+    border: 5px solid #000000;
+    color: #000000;
+    transform: scale(1.1);
+}

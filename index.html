@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Clock</title>
+</head>
+<body>
+    <div class="clock-container">
+    
+        <div class="clock">
+            <div class="dot"></div>
+            <div class=" hand hours-hand" id="hoursHand"></div>
+            <div class=" hand minutes-hand" id="minutesHand"></div>
+            <div class=" hand seconds-hand" id="secondsHand"></div>
+        </div>
+
+        <div class="digital-clock-container" >
+            <p id="timeDisplay"> 12:00:00</p>   
+            <p id="AmPmDisplay" class="hidden">PM</p>
+        </div>
+        
+        <div class="button" id="button">24h</div>
+    </div>
+
+ 
+    <script src="./script.js"></script>
+</body>
+</html>
