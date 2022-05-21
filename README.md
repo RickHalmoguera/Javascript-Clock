@@ -20,7 +20,7 @@
     <p>Para la documentación de como obtener las horas, minutos y segundos</p>
     <li><a href="https://www.w3schools.com/c/c_conditions_short_hand.php"> C Short Hand If Else (Ternary Operator)</a></p></li>
     <p>Para la documentación de como utilizar Ternary Operator, muy útil para hacer rederizado condicinal </p>
-    <li><a href="https://javascript30.com/">JavaScript 30</a></li>
+    <li><p><a href="https://javascript30.com/">JavaScript 30</a></p></li>
     <p>Página Web donde podrás conseguir 30 proyectos para practicar tus conocimientos de Js. Muy recomendado!</p>
   </ul>
   <h1>Código</h1>
